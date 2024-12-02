@@ -2,13 +2,12 @@ name: basic pipeline
 on:
   push:
     branches:
-      - new
+      - main
 jobs:
   build-deploy:
     name: build and deploy
     runs-on: ubuntu-latest
     steps:
-
       - name: checkout code
         uses: actions/checkout@v3
 
