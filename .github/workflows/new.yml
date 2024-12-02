@@ -6,7 +6,7 @@ on:
 jobs:
   build-deploy:
     name: build and deploy
-    runs-on: ubuntu-latest
+    run-on: ubuntu-latest
     steps:
       - name: checkout code
         uses: actions/checkout@v3
