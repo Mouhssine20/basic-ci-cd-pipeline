@@ -36,7 +36,7 @@ jobs:
           context: .
           dockerfile: Dockerfile
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/basic_CI_CD:latest
+          tags: ${{ secrets.DOCKER_USERNAME }}/basic-ci-cd-pipeline:latest
 
 
 
